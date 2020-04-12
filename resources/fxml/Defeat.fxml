@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<!-- Création de la vue défaite avec SceneBuilder et du css -->
+<AnchorPane id="anchorP" prefHeight="400.0" prefWidth="600.0" stylesheets="@/defeat.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label id="loser" layoutX="260.0" layoutY="130.0" text="You lose !" />
+      <Label layoutX="254.0" layoutY="205.0" styleClass="labelEnd" text="Score : " />
+      <Label layoutX="326.0" layoutY="200.0" styleClass="result" text="" /> <!-- text="${NomPropriété}" -->
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pacmanlose.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="400.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/pacmanlose.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

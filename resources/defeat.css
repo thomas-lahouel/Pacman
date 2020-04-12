@@ -1,0 +1,19 @@
+#anchorP{
+    -fx-background-image: url("images/pacman.png");
+    -fx-background-repeat: repeat;
+}
+
+#loser{
+    -fx-background-color: yellow;
+    -fx-font: 24px System;
+}
+
+.labelEnd{
+    -fx-text-fill: yellow;
+    -fx-font: 18px System;
+}
+
+.result{
+    -fx-text-fill: yellow;
+    -fx-font: 18px System;
+}

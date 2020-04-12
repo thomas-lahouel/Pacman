@@ -1,0 +1,9 @@
+#page{
+    -fx-background-color: black;
+}
+
+#playButt{
+    -fx-background-color: white;
+    -fx-text-fill: blue;
+    -fx-font: 20px System;
+}

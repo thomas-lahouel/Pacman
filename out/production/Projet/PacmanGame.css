@@ -1,0 +1,7 @@
+.MyFlowPane{
+    -fx-background-color: yellow;
+}
+.AffTxt{
+    -fx-fill: blue;
+    -fx-font: 15px Tahoma;
+}
